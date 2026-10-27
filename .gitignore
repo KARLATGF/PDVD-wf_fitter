@@ -1,0 +1,10 @@
+# ROOT ACLiC build outputs (from .L wf_fitter_avg.C+ and .x merge_run.C+)
+*.so
+*.d
+*.pcm
+*_ACLiC_dict*
+AutoDict_*
+
+# Editor / OS files
+*~
+.DS_Store
