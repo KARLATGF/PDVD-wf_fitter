@@ -1,0 +1,18 @@
+# QA-excluded channels for vd_pulser_78mVfC_split_09-2026 (CE pulser QC app, verdict = exclude)
+# channel  crp  plane  femb  asic  noise_rms_adc  reason
+  102  4  U  17  4      2.6  no_pulse
+  293  4  U  20  4    496.5  very_noisy
+  580  4  U   9  6      2.6  no_pulse
+  955  4  V  13  0    520.4  very_noisy
+ 1482  4  V   9  1    493.5  very_noisy
+ 2657  4  W  11  0    469.8  very_noisy
+ 2705  4  W  10  4    489.5  very_noisy
+ 2727  4  W  10  5    481.9  very_noisy
+ 3261  5  U  18  7      2.5  no_pulse
+ 3262  5  U  19  0      2.4  no_pulse
+ 5075  5  W  15  1      3.8  no_pulse
+ 5076  5  W  14  6      3.8  no_pulse
+ 5471  5  W  24  0    463.7  very_noisy
+ 5797  5  W  10  5     84.8  very_noisy
+ 6045  5  W   3  0      3.8  no_pulse
+ 6089  5  W   3  2     79.9  very_noisy
