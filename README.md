@@ -1,8 +1,6 @@
-# VD pulser waveform fitter (v5)
+# VD pulser waveform fitter
 
-Fits the electronics response of every channel of a ProtoDUNE-VD pulser run, to produce per-channel response
-parameters for WireCell's waveform correction. The fitter is `wf_fitter_avg.C`: a cleaned-up copy of
-version v5 of the fitter (the one used for the September 2026 7.8 mV/fC dataset) that gives identical fit results.
+ROOT/C++ fitter for ProtoDUNE-VD cold-electronics pulser runs. It averages the pulser pulses of each channel and fits the shaper response with up to two zero/pole pairs. It outputs per-channel parameters (A0, tp, k3–k6) for WireCell's per-channel response correction. The fitter is `wf_fitter_avg.C` (the one used for the September 2026 7.8 mV/fC dataset).
 
 ## Running it
 
